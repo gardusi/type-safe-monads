@@ -1,0 +1,53 @@
+{
+  "name": "type-safe-monads",
+  "version": "0.0.10",
+  "description": "Read safe Monapt by using Type Guards",
+  "author": "gardusi <giovanni.gardusi@gmail.com>",
+  "homepage": "https://github.com/gardusi/type-safe-monads#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "**/*.js",
+    "**/*.d.ts",
+    "**/*.d.ts.map"
+  ],
+  "publishConfig": {
+    "registry": "https://gardusi@git.fury.io/gardusi/type-safe-monads"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:gardusi/type-safe-monads.git"
+  },
+  "scripts": {
+    "build": "tsc --project .",
+    "lint": "tslint --project .",
+    "lint:fix": "tslint --project . --fix",
+    "test": "npx mocha",
+    "test:ci": "npm test"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "mocha.parallel": "^0.15.6",
+    "tslint": "^5.16.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "monapt": "^2.1.0"
+  },
+  "gitHead": "0250c4a727cd36f8268a24e102b2a1d2c13a7641",
+  "mocha": {
+    "spec": [
+      "test/**/*.js",
+      "dist/test/**/*.js"
+    ]
+  }
+}

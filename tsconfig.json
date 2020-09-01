@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "",
+    "incremental": false,
+    "outDir": "",
+    "paths": {}
+  },
+  "exclude": ["**/*.js"],
+  "include": ["**/*.ts"]
+}

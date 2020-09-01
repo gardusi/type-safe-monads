@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "no-relative-imports": false
+  }
+}
