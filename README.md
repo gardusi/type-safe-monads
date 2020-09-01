@@ -4,6 +4,10 @@ Adds type guard to Monapt and guarantees that empty values won't be unwrapped in
 
 This implementation is powered by [Monapt](https://github.com/jiaweihli/monapt). Take some time to show some appreciation to the original author.
 
+Pending Improvements:
+
+- [ ] Improve README.md by adding some description and library usage
+
 ## Usage
 
 ```typescript
